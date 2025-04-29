@@ -1,5 +1,8 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,10 +14,10 @@
             <div id="head1">cah</div>
         <div class="menu">
         <a href="#">home</a>
-        <a href="#">portfolio</a>
-        <a href="#">about</a>
-        <a href="#">services</a>
-        <a href="#">contact</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#contact">contact</a>
     </div>
     </div>
     <div class="bannertext">
@@ -29,6 +32,7 @@
     </div>
     </header>
     <section>
+        <a name="portfolio"></a>
         <div class="container">
         <div class="icon">
             <div><img src="images/web.webp" width="80" height="80"></div>
@@ -67,6 +71,7 @@
     <div class="bluearea">
     </div>
     <section>
+        <a name="about"></a>
         <div class="=detailing">
         <div><img src="images/background2" height="850px" width="730px" align="left"></div>
         <div class="detailingtext">
@@ -130,6 +135,7 @@
             </div>
     </section>
     <section>
+        <a name="services"></a>
         <div id="phase5text">
         <div><h2>Featured Classes Services</h2></div>
         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper<br/>mattis, consectetur adipiscing pulvinar dapibus leo.</div>
@@ -174,15 +180,68 @@
     <section>
         <div class="bg5"></div>
     </section>
-    <section>
-        <div class="bannerbg">
-            <div>Lorem ipsum dolor sit amet,<br/>consectetur adipiscing elit. Ut elit tellus,<br/>luctus nec ullamcorper mattis, pulvinar<br/>dapibus leo.</div>
-            <div class="banner">
-            <div><img src="images/pfp1.webp"></div>
-            <div>john doe</div>
-            <div>Designer</div>
+    <section class="shadow">
+        <div class="shadowtext">
+            <div class="shadowtext2">Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Ut elit
+                tellus,<br /> luctus nec ullamcorper mattis, pulvinar <br />dapibus leo.</div>
+            <div class="imgtx"><img src="images/pfp1.webp" height="60px" width="60px" align="left"
+                    class="circle" /><br />
+                <div class="john">John Doe</div>
+                <div>DESIGNER </div>
+            </div>
         </div>
+        <div class="shadowtext">
+            <div class="shadowtext2">Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Ut elit
+                tellus,<br /> luctus nec ullamcorper mattis, pulvinar <br />dapibus leo.</div>
+            <div class="imgtx"><img src="images/pfp2.webp" height="60px" width="60px" align="left"
+                    class="circle" /><br />
+                <div class="john">Martin Yela</div>
+                <div>DESIGNER </div>
+            </div>
         </div>
+        <div class="shadowtext">
+            <div class="shadowtext2">Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Ut elit
+                tellus,<br /> luctus nec ullamcorper mattis, pulvinar <br />dapibus leo.</div>
+            <div class="imgtx"><img src="images/pfp3.webp" height="60px" width="60px" align="left"
+                    class="circle" /><br />
+                <div class="john">Jeny Doe</div>
+                <div>DESIGNER </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ipsum2">
+        <p>
+            <img src="images/lipsum1.webp" height="105" width="205">
+            <img src="images/lipsum2.webp" height="105" width="205">
+            <img src="images/lipsum3.webp" height="105" width="205">
+            <img src="images/lipsum4.webp" height="105" width="205">
+        </p>
+    </section>
+    <section class="contact">
+        <a name="contact"></a>
+        <div class="container3">
+            <div class="contact-info">
+              <h2>HAVE ANY QUERY?</h2>
+              <div>
+                <h4>OUR LOCATION</h4>
+                <p>3683 Mount Olive Road, Norcross, Georgia 30071</p>
+              </div>
+              <div>
+                <h4>CALL US ON</h4>
+                <p>012 3456 7890,<br/>012 3456 7890</p>
+              </div>
+            </div>
+        
+            <div class="contact-form">
+              <form>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <textarea placeholder="Message" rows="6" required></textarea>
+                <button type="submit">SUBMIT</button>
+              </form>
+            </div>
+          </div>
     </section>
 </body>
 </html>
